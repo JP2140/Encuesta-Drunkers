@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Drunkers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- FontAwesome -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #181818;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .logo {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        .container {
+            width: 90%;
+            max-width: 480px;
+            padding: 40px;
+            background-color: #222;
+            border-radius: 20px;
+            border: 4px solid #ff8500;
+            box-shadow: 0px 0px 25px rgba(255, 133, 0, 0.8);
+        }
+        h2 {
+            font-size: 26px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 i {
+            margin-right: 10px;
+            font-size: 32px;
+            color: #ff8500;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 22px;
+            background-color: #ff8500;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 2px solid #cc6a00;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0px 5px 12px rgba(255, 133, 0, 0.5);
+        }
+        .btn:hover {
+            background-color: #cc6a00;
+        }
+        .list {
+            text-align: left;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .list p {
+            font-size: 16px;
+        }
+        .footer {
+            margin-top: 80px;
+            font-size: 14px;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .footer a i {
+            margin-right: 8px;
+            font-size: 22px;
+            color: #ff8500;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo-drunk.png" alt="Logo de Drunkers" class="logo"> <!-- Logo fuera del cuadro -->
+    
+    <div class="container">
+        <h2><i class="fas fa-poll"></i> ¡Hola, <span id="nombreUsuario">usuario</span>! 👋</h2>
+        <p>Sabemos que tu tiempo es oro (¡y tus partidas también!), pero nos encantaría conocer tu opinión para hacer de <b>Drunkers</b> un espacio aún mejor para ti.</p>
+        <div class="list">
+            <p>✅ Es solo 1 minutito (2 preguntas superrápidas)</p>
+            <p>✅ No interrumpirá tu gaming (¡palabra de honor!)</p>
+            <p>✅ Tus respuestas nos ayudan a mejorar para toda la comunidad</p>
+        </div>
+        
+        <a href="https://forms.gle/raWn3KuoDFvotPBn7" class="btn">CONTESTAR ENCUESTA</a>
+    </div>
+
+    <div class="footer">
+        <a href="https://drunkers.store/"><i class="fas fa-shopping-cart"></i> Tienda</a>
+        <a href="https://drunkers.store/category/all"><i class="fas fa-tags"></i> Ofertas</a>
+        <a href="https://drunkers.store/faqs"><i class="fas fa-question-circle"></i> Preguntas frecuentes</a>
+        <a href="https://drunkers.store/support/chat"><i class="fas fa-headset"></i> Soporte</a>
+    </div>
+</body>
+</html>
